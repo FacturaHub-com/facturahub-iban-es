@@ -1,0 +1,23 @@
+{
+  "name": "@facturahub/iban-es",
+  "version": "0.1.0",
+  "description": "Validar y formatear IBAN español (checksum mod-97) y cualquier IBAN. Sin dependencias.",
+  "keywords": ["iban", "iban españa", "validar iban", "mod97", "spain", "españa", "banking", "facturacion", "validation"],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "author": "FacturaHub",
+  "homepage": "https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=iban-es",
+  "repository": { "type": "git", "url": "git+https://github.com/FacturaHub-com/facturahub-iban-es.git" },
+  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.4.0", "vitest": "^1.6.0" }
+}
