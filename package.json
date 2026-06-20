@@ -1,5 +1,5 @@
 {
-  "name": "@facturahub/iban-es",
+  "name": "facturahub-iban-es",
   "version": "0.1.0",
   "description": "Validar y formatear IBAN español (checksum mod-97) y cualquier IBAN. Sin dependencias.",
   "keywords": ["iban", "iban españa", "validar iban", "mod97", "spain", "españa", "banking", "facturacion", "validation"],

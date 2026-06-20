@@ -1,4 +1,4 @@
-// @facturahub/iban-es — Validar y formatear IBAN español (y cualquier IBAN). 0 dependencias.
+// facturahub-iban-es — Validar y formatear IBAN español (y cualquier IBAN). 0 dependencias.
 // Validate and format Spanish IBANs using the standard mod-97 checksum.
 
 /** Mayúsculas y sin espacios. */

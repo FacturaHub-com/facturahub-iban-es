@@ -1,4 +1,4 @@
-# @facturahub/iban-es
+# facturahub-iban-es
 
 **Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=iban-es)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
 
@@ -7,13 +7,13 @@
 ## Instalación
 
 ```bash
-npm i @facturahub/iban-es
+npm i facturahub-iban-es
 ```
 
 ## Uso
 
 ```ts
-import { isValidSpanishIBAN, format, parseSpanishIBAN } from '@facturahub/iban-es';
+import { isValidSpanishIBAN, format, parseSpanishIBAN } from 'facturahub-iban-es';
 
 isValidSpanishIBAN('ES91 2100 0418 4502 0005 1332'); // true
 format('ES9121000418450200051332');                  // 'ES91 2100 0418 4502 0005 1332'
